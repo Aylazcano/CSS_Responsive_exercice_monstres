@@ -11,7 +11,8 @@
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
-
+    
+    // IMPORTANT : RESPONSIVE, REM FACILITE LA JOB (PAS BESOIN DE DIVISER PAR 16, UTILE POUR DU RESPONSIVE)
      font-size:62.5%;
   }
   
