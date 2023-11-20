@@ -24,5 +24,35 @@
     }*/
 }
 
+// IMPORTANT : RESPONSIVE
 /*Media query*/
+
+@media screen and (max-width: $breakpoint-sm) {
+    .hero{
+        padding: 80px 40px;
+
+        h1{
+            font-size: 48px;
+        }
+
+        .wrapper{
+            grid-template-columns: 1fr;
+            gap:40px;
+        }
+
+        .hero-content{
+            gap: 40px;
+        }
+
+        .bouton-hero{
+            border: 5px;
+            padding: 7px 40px;
+        }
+        
+    }
+}
+
+@media screen and (max-width: $breakpoint-xs) {
+
+}
 
